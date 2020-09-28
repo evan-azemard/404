@@ -31,10 +31,12 @@ h1{
 	position: absolute;top: 280px; left: 535;
 }
 button{
-  background: #3498db;
+  background: -webkit-linear-gradient(to right,#d0e4f4,#08c7bd);
+  background: linear-gradient(to right,#d0e4f4,#08c7bd); 
+  text-shadow: 0px 0px 5px rgba(0,0,0, 0.5);
   border-radius: 15px;
   font-family: Arial;
-  color: #f2e29b;
+  color: #ebf1f5;
   font-size: 28px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
@@ -58,6 +60,20 @@ footer p{
 	font-family: cursive;
 }
 
-header{
+nav{
 	background-color: #CCCCCC;
+}
+
+.red{
+	width: 295px;
+	height: 185px;
+	position: absolute;top: -34px; left: 900;
+
+}
+
+.logo{
+	width: 78.5px;
+	height: 78.5px;
+	position: absolute;top: 703px; left: 50;
+	z-index: 1;
 }
